@@ -1,5 +1,6 @@
-var lastname = document.getElementById('lastname');
-
-lastname.addEventListener ("blur", function () {
-  alert("Merci de votre participation");
-})
+function hide() {
+    text.style.display = 'none';
+};
+function show() {
+    text.style.display = 'block';
+};
